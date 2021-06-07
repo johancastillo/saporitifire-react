@@ -18,36 +18,36 @@ const Navigation = () => {
                     <ul className="navbar-nav ml-auto navbar-center" id="mySidenav">
                         
                         <li className="nav-item active">
-                            <a href="#home" className="nav-link">Inicio</a>
+                            <a href="#home" className="nav-link text-white">
+                                Inicio
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#about" className="nav-link">About</a>
+                            <a href="#about" className="nav-link text-white">
+                                Nosotros
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#portfolio" className="nav-link">Portfolio</a>
+                            <a href="#portfolio" className="nav-link text-white">
+                                Portafolio
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#team" className="nav-link">Team</a>
+                            <a href="#team" className="nav-link text-white">
+                                Beneficios
+                            </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#testimonial" className="nav-link">Testimonial</a>
+                            <a href="#testimonial" className="nav-link text-white">
+                                Contacto
+                            </a>
                         </li>
 
-                        <li className="nav-item">
-                            <a href="#pricing" className="nav-link">Pricing</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a href="#blog" className="nav-link">Blog</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a href="#contact" className="nav-link">Contact</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

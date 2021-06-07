@@ -6,10 +6,18 @@ const AboutSection = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="header-title text-center">
-                            <p className="text-uppercase text-muted mb-2">Who We Are?</p>
-                            <h2 className="text-uppercase">About Agency</h2>
+                            <p className="text-uppercase text-muted mb-2">¿Quienes somos?</p>
+                            <h2 className="text-uppercase">Nuestro Norte</h2>
                             <div className="title-border mt-3" />
-                            <p className="title-desc text-muted mt-3">Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin.</p>
+                            <p className="title-desc text-muted mt-3">
+                                Nuestra razón de ser es proteger las personas y los activos de nuestros clientes.
+                                Gracias a nuestra experiencia y profesionalismo, Saporiti Fire junto con su equipo, garantiza la resolución de los problemas más simples hasta los más complejos.
+                                Ofrecemos una gama de productos y servicios, donde evaluamos el correcto funcionamiento de los equipos ante cualquier contingencia, basados y fundamentados en las normas NFPA.
+
+                                Saporiti como representante exclusivo de CLARKE FIRE PROTECTION PRODUCTS INC para Venezuela, empresa norteamericana mundialmente reconocida en el rubro de motores diesel para bombas contra incendios, se garantiza que todos nuestros componentes, piezas y motores, brinden la protección contra incendios más confiable del mercado.
+                                Tenemos más de 30 años de experiencia en Venezuela, brindando una excelente calidad de servicio y precios que solo un representante Clarke puede tener.
+
+                            </p>
                         </div>
                     </div>
                 </div>
