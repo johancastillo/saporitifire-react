@@ -24,7 +24,7 @@ const Home = () => {
         <Navigation />
         <HomeSection />
         <AboutSection />
-        <SkillsSection />
+        {/*  <SkillsSection /> */}
         <ProgressSection />
         <Portfolio />
         <Counter />

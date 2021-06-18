@@ -22,7 +22,7 @@ const HomeSection = () => {
                         <br />
                         <br />
 
-                        <h1 className="title mt-4 text-white text-uppercase">
+                        <h1 className="title mt-4 text-white">
                           Motores contra incendios <br />
                     Clarke para Venezuela.
                     </h1>
@@ -54,8 +54,7 @@ const HomeSection = () => {
                     <div className="col-md-12">
                       <div className="home-content text-right">
 
-                        <h1 className="title mt-4 pt-3 text-white text-uppercase">
-                          Equipo de expertos <br />
+                        <h1 className="title mt-4 pt-3 text-white">                          Equipo de expertos <br />
                         en sistemas contra incendios. <br />
                         Nuestra gente, nuestro orgullo.
 
@@ -90,7 +89,7 @@ const HomeSection = () => {
                     <div className="col-md-12">
                       <div className="home-content text-center text-white">
 
-                        <h1 className="title mt-4 text-white text-uppercase">
+                        <h1 className="title mt-4 text-white">
                           Nuestro propósito es ayudar
                           proteger vidas <br /> y los activos
                           de nuestros clientes
