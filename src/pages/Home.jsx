@@ -1,4 +1,6 @@
 import AboutSection from "../components/AboutSection"
+import Banner from "../components/Banner"
+import Benefits from "../components/Benefits"
 import BlogSection from "../components/BlogSection"
 import CallToAction from "../components/CallToAction"
 import ContactSection from "../components/ContactSection"
@@ -20,11 +22,17 @@ import TestimonialsSection from "../components/TestimonialsSection"
 const Home = () => {
     return(
        <>
-        <Preloader />
+        {/*  <Preloader /> */}
         <Navigation />
         <HomeSection />
         <AboutSection />
+        <Banner 
+            title="Más de 30 años de experiencia y profesionalismo
+            en protección contra incendios."
+        />
         {/*  <SkillsSection /> */}
+        <br/>
+        <Benefits />
         <ProgressSection />
         <Portfolio />
         <Counter />

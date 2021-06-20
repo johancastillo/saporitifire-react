@@ -1,7 +1,7 @@
 const ProgressSection = () => {
   return (
     <section className="bg-progress section">
-      <div className="bg-overlay" />
+      <div className="" />
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

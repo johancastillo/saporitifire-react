@@ -85,7 +85,7 @@ p {
 }
 
 .bg-overlay {
-  
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(193, 28, 58, 0.6) 62.5%);
   opacity: 0.9;
   position: absolute;
   top: 0;
@@ -133,7 +133,7 @@ p {
 }
 
 .f-18 {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .f-20 {
@@ -893,7 +893,7 @@ p {
 }
 
 .home-content .title {
-  font-size: 58px;
+  font-size: 48px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
@@ -1298,7 +1298,7 @@ p {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #f1894c;
+  background-color: #c11c3a;
   background-size: 100% 40%;
   border-radius: 50%;
 }

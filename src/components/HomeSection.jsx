@@ -22,12 +22,12 @@ const HomeSection = () => {
                         <br />
                         <br />
 
-                        <h1 className="title mt-4 text-white">
+                        <h1 className="title mt-4 text-white animate__animated animate__backInDown">
                           Motores contra incendios <br />
-                    Clarke para Venezuela.
-                    </h1>
+                          Clarke para Venezuela.
+                        </h1>
 
-                        <p className="text-white mt-4 f-18">
+                        <p className="text-white mt-4 f-18 animate__animated animate__backInLeft">
                           Saporiti Fire, representantes exclusivos de CLARKE FIRE para Venezuela, empresa número uno en la fabricación y certificación de motores contra incendios.
                         </p>
 
@@ -45,6 +45,7 @@ const HomeSection = () => {
               </div>
             </div>
           </div>
+
           <div className="carousel-item" style={{ backgroundImage: `url(${image2})` }}>
             <div className="bg-overlay" />
             <div className="home-center">
@@ -54,13 +55,14 @@ const HomeSection = () => {
                     <div className="col-md-12">
                       <div className="home-content text-right">
 
-                        <h1 className="title mt-4 pt-3 text-white">                          Equipo de expertos <br />
+                        <h1 className="title mt-4 pt-3 text-white animate__animated animate__bounceIn">
+                          Equipo de expertos <br />
                         en sistemas contra incendios. <br />
                         Nuestra gente, nuestro orgullo.
 
                         </h1>
 
-                        <p className="text-white mt-4 f-18">
+                        <p className="text-white mt-4 f-18 animate__animated animate__fadeInRight">
                           Contamos con un equipo certificado para inspeccionar,
                           mantener y realizar pruebas de los motores contra incendios.
 
@@ -80,6 +82,7 @@ const HomeSection = () => {
               </div>
             </div>
           </div>
+
           <div className="carousel-item" style={{ backgroundImage: `url(${image3})` }}>
             <div className="bg-overlay" />
             <div className="home-center">
@@ -89,15 +92,15 @@ const HomeSection = () => {
                     <div className="col-md-12">
                       <div className="home-content text-center text-white">
 
-                        <h1 className="title mt-4 text-white">
+                        <h1 className="title mt-4 text-white animate__animated animate__backInRight">
                           Nuestro propósito es ayudar
                           proteger vidas <br /> y los activos
                           de nuestros clientes
                           .
                         </h1>
 
-                        <p className="text-white mt-4 f-18">
-                          Nuestro objetivo es mitigar el riesgo mediante
+                        <p className="text-white mt-4 f-18 animate__animated animate__fadeInLeft">
+                          Nuestro objetivo es mitigar el riesgo mediante <br/>
                           la protección contra incendios.
                         </p>
 
