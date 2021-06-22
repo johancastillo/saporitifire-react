@@ -10,6 +10,7 @@ import FooterAlt from "../components/FooterAlt"
 import HomeSection from "../components/HomeSection"
 import Navigation from "../components/Navigation"
 import Portfolio from "../components/Portfolio"
+import Portfolio2 from "../components/Portfolio2"
 import Preloader from "../components/Preloader"
 import Pricing from "../components/Pricing"
 import ProgressSection from "../components/ProgressSection"
@@ -34,7 +35,8 @@ const Home = () => {
         <br/>
         <Benefits />
         <ProgressSection />
-        <Portfolio />
+        {/*  <Portfolio /> */}
+        <Portfolio2 />
         <Counter />
         <TeamSection />
         <TestimonialsSection />
