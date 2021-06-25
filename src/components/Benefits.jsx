@@ -8,7 +8,8 @@ const Benefits = () => {
     return (
         <div className="container">
             <div className="row benefits">
-                <div className="col-md-6">
+
+                <div className="col-md-6 d-flex">
                     <div className="card card-benefit">
                         <img src={image1} alt="" />
 
@@ -23,7 +24,7 @@ const Benefits = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 d-flex">
                     <div className="card card-benefit">
                         <img src={image2} alt="" />
 
@@ -38,7 +39,7 @@ const Benefits = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 d-flex">
                     <div className="card card-benefit">
                         <img src={image3} alt="" />
 
@@ -54,7 +55,7 @@ const Benefits = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 d-flex">
                     <div className="card card-benefit">
                         <img src={image4} alt="" />
 

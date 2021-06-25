@@ -7,9 +7,8 @@ import ContactSection from "../components/ContactSection"
 import Counter from "../components/Counter"
 import Footer from "../components/Footer"
 import FooterAlt from "../components/FooterAlt"
-import HomeSection from "../components/HomeSection"
+import Slider from "../components/Slider"
 import Navigation from "../components/Navigation"
-import Portfolio from "../components/Portfolio"
 import Portfolio2 from "../components/Portfolio2"
 import Preloader from "../components/Preloader"
 import Pricing from "../components/Pricing"
@@ -17,6 +16,8 @@ import ProgressSection from "../components/ProgressSection"
 import SkillsSection from "../components/SkillsSection"
 import TeamSection from "../components/TeamSection"
 import TestimonialsSection from "../components/TestimonialsSection"
+import Move from "../components/Move"
+import Contacts from "../components/Contacts"
 
 
 
@@ -25,25 +26,51 @@ const Home = () => {
        <>
         {/*  <Preloader /> */}
         <Navigation />
-        <HomeSection />
+        <Slider />
         <AboutSection />
         <Banner 
             title="Más de 30 años de experiencia y profesionalismo
             en protección contra incendios."
+            img=""
         />
         {/*  <SkillsSection /> */}
+        
         <br/>
-        <Benefits />
-        <ProgressSection />
+        <br/>
+        <Move />
+        <br/>
+
         {/*  <Portfolio /> */}
         <Portfolio2 />
-        <Counter />
-        <TeamSection />
-        <TestimonialsSection />
-        <Pricing />
-        <BlogSection />
-        <CallToAction />
-        <ContactSection />
+
+        <Banner 
+            title="DONDE NOS NECESITES ALLÍ ESTAREMOS"
+            description="Cobertura nacional en sistemas contra incendios"
+            img=""
+        />
+
+        <ProgressSection />
+
+        <Benefits />
+
+        <Banner 
+            title="Contáctanos para realizar el mantenimiento de tus motores diesel"
+        />
+
+        <br/>
+        <br/>
+        <Contacts />
+        <br/>
+        <br/>
+
+        {/* <Counter /> */}
+
+        {/* <TeamSection /> */}
+        {/* <TestimonialsSection /> */}
+        {/* <Pricing /> */}
+        {/* <BlogSection /> */}
+        {/* <CallToAction /> */}
+        {/* <ContactSection /> */}
         <Footer />
         <FooterAlt />
        </>

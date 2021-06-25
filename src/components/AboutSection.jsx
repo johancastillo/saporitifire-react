@@ -1,3 +1,6 @@
+import icon1 from "./../images/icons/objetivo.svg"
+import icon2 from "./../images/icons/target.svg"
+
 const AboutSection = () => {
   return (
     <section className="section" id="about">
@@ -34,6 +37,8 @@ const AboutSection = () => {
             <div className="about-box bg-light rounded text-center mt-4">
               {/* <i className="mdi mdi-monitor text-primary" /> */}
 
+              <img src={icon1} className="icon-about" alt=""/>
+
               <h5 className="f-18 mt-3">Nuestra Razón de ser</h5>
 
               <div className="lighlight-border mt-3" />
@@ -48,6 +53,9 @@ const AboutSection = () => {
           <div className="col-md-6">
             <div className="about-box box-shadow rounded text-center mt-4">
                 {/* <i className="mdi mdi-monitor text-primary" /> */}
+
+              <img src={icon2} className="icon-about" alt=""/>
+
 
               <h5 className="f-18 mt-3">
                 ¿Qué queremos lograr?

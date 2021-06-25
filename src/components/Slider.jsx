@@ -4,7 +4,7 @@ import image2 from "./../images/slide/02.png"
 import image3 from "./../images/slide/03.png"
 
 
-const HomeSection = () => {
+const Slider = () => {
   return (
     <section className="home-section" id="home">
       <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
@@ -134,6 +134,6 @@ const HomeSection = () => {
 }
 
 
-export default HomeSection
+export default Slider
 
 

@@ -11,9 +11,10 @@
   background: linear-gradient(180deg, rgba(193, 28, 58, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("./images/backgrounds/01.png");
   padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 190px;
+  height: 230px;
   align-items: center;
   background-attachment: fixed;
 }
@@ -21,6 +22,11 @@
 .banner h4{
   color: #fff !important;
   font-size: 28px !important;
+}
+
+.banner p{
+  color: #fff;
+  font-size: 22px;
 }
 
 .card-benefit{
@@ -41,8 +47,70 @@
   margin-bottom: 20px;
 }
 
+.row-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+@media screen and (max-width: 1020px){
+  .row-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+#portfolio{
+  padding: 100px 0;
+}
+
+.circle{
+  background: #FAF9F9;
+  border: 3px solid #C11C3A;
+  box-sizing: border-box;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img{
+  width: 50%;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.icon-about{
+  width: 128px;
+}
+
+.tarjet{
+  position: relative !important;
+  background-size: cover !important;
+  height: 184px;
+  cursor: pointer;
+  animation: all 5s;
+}
+
+.tarjet:hover{
+  background-size: initial !important;
+  background-position: center;
+}
+
+.tarjet h6{
+  position: absolute;
+  bottom: 5px;
+  left: 26px;
+  color: #fff;
+}
 
 .tarjet img{
   width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 

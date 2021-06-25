@@ -834,7 +834,8 @@ p {
 .nav-sticky.navbar-custom .navbar-nav li.active a,
 .nav-sticky.navbar-custom .navbar-nav li a:hover,
 .nav-sticky.navbar-custom .navbar-nav li a:active {
-  color: #f1894c !important;
+  color: #c11d39 !important;
+  border-bottom: 2px solid;
 }
 
 .nav-sticky.navbar-custom .navbar-toggles {
